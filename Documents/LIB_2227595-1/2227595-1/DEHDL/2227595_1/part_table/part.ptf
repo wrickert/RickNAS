@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '2227595_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "2227595-1" (!) = "", "22275951", "Other", "571-2227595-1", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/2227595-1?qs=ZH26iPUykMX7%2FUCsNC121Q%3D%3D", "", "", "I/O Connectors 1X1 VERT ASSY, MINI SAS HD INTERNAL", "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227595&DocType=Customer+Drawing&DocLang=English", "14.2 mm"
+END_PART
+
+END.
