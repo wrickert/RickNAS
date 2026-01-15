@@ -6052,7 +6052,7 @@
 		(uuid "775af21d-42a2-4a09-a830-bcc96ae07b13")
 	)
 	(junction
-		(at 209.55 114.3)
+		(at 191.77 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba271d90-2779-42c5-bfd9-29decd32dad9")
@@ -6647,7 +6647,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 111.76) (xy 209.55 114.3)
+			(xy 191.77 106.68) (xy 191.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6717,7 +6717,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 115.57) (xy 198.12 114.3)
+			(xy 180.34 110.49) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7087,7 +7087,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 209.55 114.3)
+			(xy 189.23 109.22) (xy 191.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7107,7 +7107,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 209.55 118.11)
+			(xy 191.77 109.22) (xy 191.77 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7307,7 +7307,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 114.3) (xy 201.93 114.3)
+			(xy 180.34 109.22) (xy 184.15 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7761,7 +7761,7 @@
 	)
 	(global_label "SDataOut"
 		(shape input)
-		(at 199.39 128.27 180)
+		(at 181.61 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7771,7 +7771,7 @@
 		)
 		(uuid "588c0556-dcbc-4c72-9b6f-7dea638d60b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.6964 128.27 0)
+			(at 169.9164 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +7893,7 @@
 	)
 	(global_label "SDataIn"
 		(shape input)
-		(at 199.39 130.81 180)
+		(at 181.61 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7903,7 +7903,7 @@
 		)
 		(uuid "9ad0b381-b13e-4b4d-8cda-e73c4646499c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.1478 130.81 0)
+			(at 171.3678 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7915,7 @@
 	)
 	(global_label "SClock"
 		(shape input)
-		(at 199.39 123.19 180)
+		(at 181.61 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7925,7 +7925,7 @@
 		)
 		(uuid "a85e7f75-6384-4f84-ad9e-d2a829c7b3ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.9944 123.19 0)
+			(at 172.2144 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +7937,7 @@
 	)
 	(global_label "SLoad"
 		(shape input)
-		(at 199.39 125.73 180)
+		(at 181.61 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7947,7 +7947,7 @@
 		)
 		(uuid "a9bada83-4703-4d0b-95fb-574cf9398ea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7202 125.73 0)
+			(at 172.9402 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +9985,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 209.55 153.67 180)
+		(at 191.77 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9993,7 +9993,7 @@
 		(dnp no)
 		(uuid "47fda697-7494-444c-83b4-78cdde715a46")
 		(property "Reference" "#PWR095"
-			(at 209.55 149.86 0)
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10002,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 209.55 157.48 0)
+			(at 191.77 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 153.67 0)
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 153.67 0)
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10028,7 +10028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 209.55 153.67 0)
+			(at 191.77 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10201,7 +10201,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 209.55 111.76 0)
+		(at 191.77 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10210,7 +10210,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f78bf76-9e6c-4a97-bd39-8c7ca8115150")
 		(property "Reference" "#PWR093"
-			(at 209.55 115.57 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10219,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 209.55 106.68 0)
+			(at 191.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 111.76 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 111.76 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 111.76 0)
+			(at 191.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10266,7 @@
 	)
 	(symbol
 		(lib_id "MCU_WCH_CH32V0:CH32V003FxPx")
-		(at 209.55 135.89 0)
+		(at 191.77 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10275,7 +10275,7 @@
 		(fields_autoplaced yes)
 		(uuid "50efff95-9749-4c61-9531-19347dc414be")
 		(property "Reference" "U1"
-			(at 211.6933 115.57 0)
+			(at 193.9133 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10284,7 @@
 			)
 		)
 		(property "Value" "CH32V003FxPx"
-			(at 211.6933 118.11 0)
+			(at 193.9133 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,7 +10293,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
-			(at 208.28 135.89 0)
+			(at 190.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10302,7 +10302,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wch-ic.com/products/CH32V003.html"
-			(at 208.28 135.89 0)
+			(at 190.5 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10311,7 +10311,7 @@
 			)
 		)
 		(property "Description" "CH32V003 series are industrial-grade general-purpose microcontrollers designed based on 32-bit RISC-V instruction set and architecture. It adopts QingKe V2A core, RV32EC instruction set, and supports 2 levels of interrupt nesting. The series are mounted with rich peripheral interfaces and function modules. Its internal organizational structure meets the low-cost and low-power embedded application scenarios."
-			(at 209.55 135.89 0)
+			(at 191.77 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13783,7 +13783,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 198.12 115.57 180)
+		(at 180.34 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13791,7 +13791,7 @@
 		(dnp no)
 		(uuid "9f45236b-5aa4-4a6b-a1e5-9d608a06a386")
 		(property "Reference" "#PWR094"
-			(at 198.12 111.76 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13800,7 +13800,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 198.12 119.38 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13808,7 +13808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 115.57 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13817,7 +13817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 115.57 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13826,7 +13826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 198.12 115.57 0)
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 204.47 114.3 90)
+		(at 186.69 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14120,7 +14120,7 @@
 		(fields_autoplaced yes)
 		(uuid "a938d89a-11e4-43f6-be1d-bc7be576ccb0")
 		(property "Reference" "C9"
-			(at 204.4763 107.95 90)
+			(at 186.6963 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +14128,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 204.4763 110.49 90)
+			(at 186.6963 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14136,7 +14136,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 204.47 114.3 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 114.3 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14154,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 204.47 114.3 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
