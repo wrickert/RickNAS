@@ -5,6 +5,177 @@
 	(uuid "486f1675-5c9c-437e-ba44-728f11b84837")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -1650,6 +1821,146 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TLV1117-33"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV1117-33"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV1117-33_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV1117-33_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5662,104 +5973,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VSS"
 			(power)
 			(pin_numbers
@@ -5992,6 +6205,12 @@
 		(uuid "001b6ec4-b21b-4df2-9619-854ad066c086")
 	)
 	(junction
+		(at 29.21 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07205953-720d-4980-8a15-c82a027a42a9")
+	)
+	(junction
 		(at 260.35 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6026,6 +6245,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ba32107-4d24-4e2b-b459-1456eaa7e338")
+	)
+	(junction
+		(at 50.8 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6404b202-6ae2-4f2b-b2a1-3b5cf941ba55")
 	)
 	(junction
 		(at 195.58 77.47)
@@ -6227,6 +6452,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 116.84) (xy 247.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157813f4-9c15-4f6e-8cd4-1a062c27da83")
+	)
+	(wire
+		(pts
 			(xy 165.1 77.47) (xy 165.1 80.01)
 		)
 		(stroke
@@ -6287,17 +6522,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 158.75) (xy 129.54 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce659a1-6e20-4186-a180-026f158edccc")
-	)
-	(wire
-		(pts
-			(xy 116.84 163.83) (xy 111.76 163.83)
+			(xy 111.76 163.83) (xy 119.38 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6347,6 +6572,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 163.83) (xy 127 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9c3b00-961a-4e95-9786-a54318d0f0a0")
+	)
+	(wire
+		(pts
 			(xy 180.34 77.47) (xy 182.88 77.47)
 		)
 		(stroke
@@ -6357,7 +6592,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 161.29) (xy 116.84 161.29)
+			(xy 111.76 161.29) (xy 119.38 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6417,7 +6652,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 156.21) (xy 116.84 156.21)
+			(xy 111.76 156.21) (xy 119.38 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6637,6 +6872,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 125.73) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cede052-e3a0-4d0c-9e7b-50034a9d688e")
+	)
+	(wire
+		(pts
 			(xy 193.04 77.47) (xy 195.58 77.47)
 		)
 		(stroke
@@ -6677,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 158.75) (xy 116.84 158.75)
+			(xy 111.76 158.75) (xy 119.38 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6717,6 +6962,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 161.29) (xy 127 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858c76a1-71c3-41c4-9ebf-e59111f271a2")
+	)
+	(wire
+		(pts
 			(xy 180.34 110.49) (xy 180.34 109.22)
 		)
 		(stroke
@@ -6737,6 +6992,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 55.88) (xy 52.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899ee146-0a91-46e7-9857-23699613fee0")
+	)
+	(wire
+		(pts
 			(xy 198.12 34.29) (xy 198.12 36.83)
 		)
 		(stroke
@@ -6747,13 +7012,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 156.21) (xy 129.54 156.21)
+			(xy 50.8 59.69) (xy 46.99 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c1fb86e-44ea-4904-9f3f-2ba74afbe692")
+		(uuid "8cb0bb51-3a3c-4591-bd17-c21342ad7a65")
 	)
 	(wire
 		(pts
@@ -6784,6 +7049,26 @@
 			(type default)
 		)
 		(uuid "9238204a-1248-4456-8004-8cce59913d26")
+	)
+	(wire
+		(pts
+			(xy 27.94 59.69) (xy 29.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ae333f-7675-4a98-9c6c-589fc1496a6b")
+	)
+	(wire
+		(pts
+			(xy 50.8 64.77) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96effcf0-7ac6-4341-b388-b433dccd6220")
 	)
 	(wire
 		(pts
@@ -6904,16 +7189,6 @@
 			(type default)
 		)
 		(uuid "aae83e31-7ebd-4759-85b8-27a4d1b0ac25")
-	)
-	(wire
-		(pts
-			(xy 127 163.83) (xy 129.54 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab71bffc-58fe-4c70-b596-12f5cd311253")
 	)
 	(wire
 		(pts
@@ -7137,6 +7412,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 59.69) (xy 50.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59c8212-4855-4d0d-989e-548829c10f41")
+	)
+	(wire
+		(pts
 			(xy 245.11 74.93) (xy 245.11 77.47)
 		)
 		(stroke
@@ -7144,16 +7429,6 @@
 			(type default)
 		)
 		(uuid "d5ce536c-3712-4c57-afbe-d5eebbd01f62")
-	)
-	(wire
-		(pts
-			(xy 127 161.29) (xy 129.54 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5e620e5-a454-4c01-b4d4-d40c44366bfb")
 	)
 	(wire
 		(pts
@@ -7277,6 +7552,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 158.75) (xy 127 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e606f8c3-e9d5-4519-917a-ffb419828393")
+	)
+	(wire
+		(pts
 			(xy 262.89 34.29) (xy 262.89 36.83)
 		)
 		(stroke
@@ -7297,6 +7582,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 59.69) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a6d0ef-5389-492f-8ad8-36f45077d29c")
+	)
+	(wire
+		(pts
 			(xy 180.34 77.47) (xy 180.34 80.01)
 		)
 		(stroke
@@ -7304,6 +7599,16 @@
 			(type default)
 		)
 		(uuid "e8a14930-6308-4f2f-bc51-95711e3dc82f")
+	)
+	(wire
+		(pts
+			(xy 29.21 64.77) (xy 29.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ff20ee-9796-477b-ac4b-ea8d52652dfb")
 	)
 	(wire
 		(pts
@@ -7357,6 +7662,36 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 55.88) (xy 27.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4467d12-7068-4cfd-9664-53a6ec3b6ee8")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.21) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f482b726-27d0-44a1-9802-6cc36fdc24aa")
+	)
+	(wire
+		(pts
+			(xy 247.65 129.54) (xy 247.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5649831-e88e-4fb2-b910-735001b1a53c")
+	)
+	(wire
+		(pts
 			(xy 245.11 36.83) (xy 245.11 39.37)
 		)
 		(stroke
@@ -7374,6 +7709,16 @@
 			(type default)
 		)
 		(uuid "f6bdcaf9-173e-447e-b0b0-69d3310f6bb2")
+	)
+	(wire
+		(pts
+			(xy 247.65 120.65) (xy 251.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c7994f-3ced-4d6a-8100-3817061c454a")
 	)
 	(wire
 		(pts
@@ -7717,7 +8062,7 @@
 	)
 	(global_label "Drive 2"
 		(shape input)
-		(at 134.62 158.75 0)
+		(at 137.16 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7727,7 +8072,29 @@
 		)
 		(uuid "08ba43e9-3f2f-430e-8818-ee5df6fc0cfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4995 158.75 0)
+			(at 147.0395 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWO"
+		(shape input)
+		(at 201.93 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13eabf34-ccfb-4633-b290-3c600b87a1e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.9066 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7761,7 +8128,7 @@
 	)
 	(global_label "SDataOut"
 		(shape input)
-		(at 181.61 123.19 180)
+		(at 181.61 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7771,7 +8138,7 @@
 		)
 		(uuid "588c0556-dcbc-4c72-9b6f-7dea638d60b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9164 123.19 0)
+			(at 169.9164 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7805,7 +8172,7 @@
 	)
 	(global_label "Drive 4"
 		(shape input)
-		(at 134.62 163.83 0)
+		(at 137.16 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7815,7 +8182,7 @@
 		)
 		(uuid "5c60347d-68e7-4798-b698-60d3008adda8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4995 163.83 0)
+			(at 147.0395 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,7 +8238,7 @@
 	)
 	(global_label "Drive 3"
 		(shape input)
-		(at 134.62 161.29 0)
+		(at 137.16 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7881,7 +8248,51 @@
 		)
 		(uuid "72921a00-b481-476a-8463-5142e4fb59ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4995 161.29 0)
+			(at 147.0395 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drive 1"
+		(shape input)
+		(at 201.93 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "865d2202-0b37-4c29-abfa-fe48ea19027e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8095 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drive 2"
+		(shape input)
+		(at 201.93 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88e630f8-bd59-4582-ac21-015fc82e3e49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8095 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +8304,7 @@
 	)
 	(global_label "SDataIn"
 		(shape input)
-		(at 181.61 125.73 180)
+		(at 181.61 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7903,7 +8314,7 @@
 		)
 		(uuid "9ad0b381-b13e-4b4d-8cda-e73c4646499c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.3678 125.73 0)
+			(at 171.3678 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8326,7 @@
 	)
 	(global_label "SClock"
 		(shape input)
-		(at 181.61 118.11 180)
+		(at 181.61 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7925,7 +8336,7 @@
 		)
 		(uuid "a85e7f75-6384-4f84-ad9e-d2a829c7b3ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.2144 118.11 0)
+			(at 172.2144 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7937,7 +8348,7 @@
 	)
 	(global_label "SLoad"
 		(shape input)
-		(at 181.61 120.65 180)
+		(at 181.61 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7947,7 +8358,51 @@
 		)
 		(uuid "a9bada83-4703-4d0b-95fb-574cf9398ea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9402 120.65 0)
+			(at 172.9402 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drive 3"
+		(shape input)
+		(at 201.93 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa82737e-91c2-416a-a475-c062ba143f94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8095 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWO"
+		(shape input)
+		(at 251.46 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba3e9b0d-dd61-4783-af4f-c7f628864133")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.4834 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8414,7 @@
 	)
 	(global_label "Drive 1"
 		(shape input)
-		(at 134.62 156.21 0)
+		(at 137.16 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7969,7 +8424,29 @@
 		)
 		(uuid "eaf432bb-db75-40aa-b932-fc9cda539b7b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.4995 156.21 0)
+			(at 147.0395 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Drive 4"
+		(shape input)
+		(at 201.93 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f23941ac-dde4-4fa1-87c1-a1f4b7e3b541")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.8095 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,137 +8517,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 33.02 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01f3e1cf-b3db-4f74-be17-d1563c953b55")
-		(property "Reference" "#PWR0101"
-			(at 33.02 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ae338f8-21be-4a10-b864-f2f5899ab55a")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02cfaba4-b9a9-4405-9627-4f25ae864429")
-		(property "Reference" "#PWR01"
-			(at 50.8 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92e5c4a1-749a-47d5-919c-a4c679b4ff11")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8302,6 +8648,71 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 22.86 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "099521c6-bc6b-4786-ac0b-b805e060f9c5")
+		(property "Reference" "#PWR035"
+			(at 22.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 22.86 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 22.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19f09de3-78b8-4d50-aade-ce632239467e")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8772,17 +9183,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 33.02 132.08 0)
+		(lib_id "Device:C_Small")
+		(at 50.8 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "19483ba7-0daf-4ccb-88c3-2315e06ef7b6")
-		(property "Reference" "#PWR020"
-			(at 33.02 138.43 0)
+		(uuid "1391d941-94b7-4737-9e1a-b237e14bfe1c")
+		(property "Reference" "C10"
+			(at 53.34 60.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 53.34 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,16 +9219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 132.08 0)
+		(property "Datasheet" "~"
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,8 +9228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 33.02 132.08 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,21 +9237,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "3cf1b88d-b8ad-4ad8-8a2c-214db5325cb4")
 		)
 		(pin "1"
-			(uuid "288b8518-54a8-4f11-a9c8-66a2a8fc15bf")
+			(uuid "359d83af-9849-4a32-884d-593d805506d3")
 		)
 		(instances
-			(project "RickNAS_4PortSATA"
+			(project ""
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR020")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9036,6 +9452,73 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
+		(at 57.15 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2386875a-7775-483d-a452-875e3be8eaff")
+		(property "Reference" "#PWR01"
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 53.34 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 57.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec23e802-184b-4d48-9401-8d7a7737970a")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
 		(at 222.25 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9095,72 +9578,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27116aaf-a29e-4607-86e2-537d5fc82e48")
-		(property "Reference" "#PWR043"
-			(at 50.8 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e7484bc-4ef4-439e-8936-47f56b9f74a5")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9365,6 +9782,71 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
+		(at 43.18 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c5c535b-ccfe-49e3-9bc0-306c4efedbe6")
+		(property "Reference" "#PWR065"
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 43.18 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 43.18 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a04debdb-e7da-4bc3-9fae-263df287118d")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
 		(at 72.39 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9425,6 +9907,72 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ead4fea-6123-4b1b-bea2-fd7409e4c3ec")
+		(property "Reference" "#PWR0105"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ecea819-cb6b-4401-a2d5-2024d5e80521")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -9498,17 +10046,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 132.08 156.21 0)
+		(at 121.92 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "32565efb-89bf-4a81-abaa-0f1af85dcd83")
 		(property "Reference" "D1"
-			(at 132.0165 149.86 0)
+			(at 124.968 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +10063,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 132.0165 152.4 0)
+			(at 114.046 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9524,7 +10071,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 132.08 156.21 90)
+			(at 121.92 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9533,7 +10080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 156.21 90)
+			(at 121.92 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9542,7 +10089,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 132.08 156.21 0)
+			(at 121.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,16 +10314,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 121.92 158.75 270)
+		(at 132.08 158.75 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3e04aaac-b22b-46f9-9153-c2587bceeffb")
 		(property "Reference" "RN1"
-			(at 121.92 170.18 90)
+			(at 132.08 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +10332,7 @@
 			)
 		)
 		(property "Value" "R_Pack04"
-			(at 121.92 167.64 90)
+			(at 132.08 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +10340,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
-			(at 121.92 151.765 90)
+			(at 132.08 151.765 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9801,7 +10349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 158.75 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9810,7 +10358,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 121.92 158.75 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,6 +10460,72 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 247.65 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "409ad295-264a-4002-bbd1-935791a234f6")
+		(property "Reference" "#PWR0106"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 247.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 247.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b5de490-02cc-43f7-a6ab-816677c0e48b")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -10200,17 +10814,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 191.77 106.68 0)
+		(lib_id "power:VSS")
+		(at 247.65 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f78bf76-9e6c-4a97-bd39-8c7ca8115150")
-		(property "Reference" "#PWR093"
-			(at 191.77 110.49 0)
+		(uuid "4d0bbf13-0d63-417f-ae6a-095dbdacef22")
+		(property "Reference" "#PWR0107"
+			(at 247.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,8 +10831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 191.77 101.6 0)
+		(property "Value" "VSS"
+			(at 247.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 106.68 0)
+			(at 247.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +10849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 106.68 0)
+			(at 247.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,21 +10857,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 247.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "28cca48d-6cd0-48e1-a0f0-9cb29645ca34")
+			(uuid "19f30444-2c01-4232-ad46-c338ced50ca7")
 		)
 		(instances
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR093")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11235,6 +11849,71 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
+		(at 29.21 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63b75145-908f-433d-ae29-4dbd2ce0f02b")
+		(property "Reference" "#PWR0102"
+			(at 29.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 29.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 29.21 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad8b0c00-0081-49c1-9a94-b2605379bfd5")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
 		(at 72.39 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11701,6 +12380,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 22.86 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f07a144-843f-4d73-a15a-2d52194e3a54")
+		(property "Reference" "#PWR020"
+			(at 22.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 22.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 22.86 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b64cdc-ebcc-4fa5-b250-b1f6558fb214")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 33.02 147.32 0)
 		(unit 1)
@@ -12090,71 +12834,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 22.86 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7774a0b1-d5e6-4857-b881-a6aa82bccc63")
-		(property "Reference" "#PWR014"
-			(at 22.86 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "778d935e-cd55-4837-abb5-e2c9739bfa6d")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12596,17 +13275,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 156.21 0)
+		(lib_id "power:VSS")
+		(at 33.02 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ad4d70c-3f6b-462e-b3c1-e9238c0e0daa")
-		(property "Reference" "#PWR069"
-			(at 53.34 162.56 0)
+		(uuid "7af85baf-99a6-460a-b16f-f878083e6637")
+		(property "Reference" "#PWR016"
+			(at 33.02 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12614,8 +13292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 53.34 161.29 0)
+		(property "Value" "VSS"
+			(at 33.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12623,7 +13301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 156.21 0)
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12632,7 +13310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 156.21 0)
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12640,21 +13318,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 156.21 0)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 33.02 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "257f0f1b-0626-4d79-be6a-02af83a8acdb")
+			(uuid "02b62565-10b0-4708-86b2-2e19bd4d4b3a")
 		)
 		(instances
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR069")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12788,6 +13467,77 @@
 			(project ""
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 176.53 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e596012-a9fc-4753-b5f5-988c44449974")
+		(property "Reference" "J2"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 173.482 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79250102-a380-4eff-8df2-aca2fff1bf13")
+		)
+		(pin "3"
+			(uuid "fdd7bf33-2f25-4031-b209-3fa6f4728ded")
+		)
+		(pin "1"
+			(uuid "1bd42f68-ea6e-435e-8a1d-8465f0520a73")
+		)
+		(instances
+			(project ""
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13187,6 +13937,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:TLV1117-33")
+		(at 39.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d0ce1e5-e3ab-4c8a-8fa3-ec27b9fbb0be")
+		(property "Reference" "U2"
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV1117-33"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv1117.pdf"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccd29956-532d-4738-9fd1-49fe3c79d5df")
+		)
+		(pin "1"
+			(uuid "ae16ad8c-9f36-4f10-89c7-a0ca1292f66f")
+		)
+		(pin "3"
+			(uuid "4e458f21-f81e-4bb9-85e6-7cdeb63d9d22")
+		)
+		(instances
+			(project ""
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 44.45 191.77 180)
 		(unit 1)
@@ -13380,71 +14201,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98762544-7145-4a9e-9a0e-654313f33e03")
-		(property "Reference" "#PWR039"
-			(at 43.18 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ced3cb2c-b195-41ef-bc59-9581c9e2121a")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13847,17 +14603,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 132.08 0)
+		(lib_id "power:+5V")
+		(at 27.94 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1ee6b23-a8aa-4593-b93e-4339c2825cba")
-		(property "Reference" "#PWR065"
-			(at 53.34 138.43 0)
+		(uuid "a2b5ce46-55a1-4327-ae1f-7148238be451")
+		(property "Reference" "#PWR093"
+			(at 27.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,8 +14621,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 53.34 137.16 0)
+		(property "Value" "+5V"
+			(at 27.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13874,7 +14630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 132.08 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +14639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 132.08 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13892,7 +14648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 132.08 0)
+			(at 27.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,12 +14656,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "618fbd0a-637b-42b6-870b-2c229d84e150")
+			(uuid "6b0c231e-5e3d-45a2-b925-2172f7f22c6e")
 		)
 		(instances
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR065")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -14178,6 +14934,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 256.54 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abeff33d-5820-4b27-9ee1-96286b825824")
+		(property "Reference" "J3"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8525e6c0-6520-485f-9e57-e0ae675438dd")
+		)
+		(pin "3"
+			(uuid "0cf839ce-97d9-4875-9be2-1572eeb6ad6a")
+		)
+		(pin "1"
+			(uuid "b2a4c182-6f8a-4b2f-aa75-7bd24b6edce8")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 111.76 152.4 0)
 		(unit 1)
@@ -14310,6 +15136,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 52.07 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae3dc59c-3095-4487-bb8d-86957b04abb4")
+		(property "Reference" "#PWR0100"
+			(at 52.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 52.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8de5ce-28ab-4052-9a96-773327cb2c61")
+		)
+		(instances
+			(project ""
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VSS")
 		(at 160.02 74.93 180)
 		(unit 1)
@@ -14370,6 +15262,71 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 53.34 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b29b6bdd-869f-43a6-b897-b3e76485ab1e")
+		(property "Reference" "#PWR0108"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99db7a36-da4e-46ae-b366-1dcd1cf95200")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -14727,17 +15684,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 132.08 158.75 0)
+		(at 121.92 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9c103c7-1910-4990-ab35-a074f59807a5")
 		(property "Reference" "D2"
-			(at 132.0165 152.4 0)
+			(at 124.968 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14745,7 +15701,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 132.0165 154.94 0)
+			(at 114.046 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14753,7 +15709,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 132.08 158.75 90)
+			(at 121.92 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +15718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 158.75 90)
+			(at 121.92 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14771,7 +15727,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 132.08 158.75 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14997,17 +15953,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 132.08 163.83 0)
-		(mirror y)
+		(at 121.92 161.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c293c54e-b5fa-4bef-af89-f75f2fd05a0c")
 		(property "Reference" "D4"
-			(at 132.0165 157.48 0)
+			(at 124.968 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,7 +15969,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 132.0165 160.02 0)
+			(at 113.792 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,7 +15977,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 132.08 163.83 90)
+			(at 121.92 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +15986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 163.83 90)
+			(at 121.92 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15041,7 +15995,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 132.08 163.83 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15059,71 +16013,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 22.86 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3201a91-bc3a-437d-abec-0048e407596c")
-		(property "Reference" "#PWR016"
-			(at 22.86 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94c6a0be-3058-4869-bf06-574b0e4c8291")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15465,6 +16354,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VSS")
+		(at 43.18 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce4910aa-45ae-4a0d-9b95-e0526f5aedca")
+		(property "Reference" "#PWR014"
+			(at 43.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 43.18 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "329ece7d-e28e-4a07-9e83-e70514cb5e34")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 43.18 147.32 0)
 		(unit 1)
@@ -15524,6 +16478,71 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 50.8 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d885f806-ecea-4b51-a242-ded268545476")
+		(property "Reference" "#PWR0104"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d12fd3ce-37bf-42df-9801-7a3439c780cb")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -15797,6 +16816,71 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
+		(at 53.34 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df7e68c6-6a53-45c4-a627-2a889a5f2640")
+		(property "Reference" "#PWR069"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3964357c-a441-4183-b1c0-245d23eb5fd6")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
 		(at 214.63 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15999,6 +17083,76 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 29.21 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e20b7910-a978-4149-bc04-b1c793825a91")
+		(property "Reference" "C11"
+			(at 26.67 60.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 26.67 63.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2c24ae2-e455-4ecb-9f40-123c9304bb0d")
+		)
+		(pin "1"
+			(uuid "48e98cd3-8fc6-474e-91cd-6df222e2890b")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16473,17 +17627,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 132.08 161.29 0)
+		(at 121.92 158.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eaba5e98-5af1-487c-b357-591e3831998a")
 		(property "Reference" "D3"
-			(at 132.0165 154.94 0)
+			(at 124.968 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16491,7 +17644,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 132.0165 157.48 0)
+			(at 114.046 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,7 +17652,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 132.08 161.29 90)
+			(at 121.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16508,7 +17661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 161.29 90)
+			(at 121.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16517,7 +17670,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 132.08 161.29 0)
+			(at 121.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,17 +17827,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 132.08 0)
+		(lib_id "power:VSS")
+		(at 57.15 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f34a9807-dcf6-40b7-916b-f6dad9fe964c")
-		(property "Reference" "#PWR035"
-			(at 43.18 138.43 0)
+		(uuid "f1b6f336-858d-4e3c-b764-8f9096895f03")
+		(property "Reference" "#PWR0101"
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,16 +17845,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 43.18 137.16 0)
+		(property "Value" "VSS"
+			(at 53.34 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 132.08 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16710,7 +17864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 132.08 0)
+			(at 57.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16718,21 +17872,87 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 132.08 0)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 57.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08186f2d-5f7a-458d-9c1f-d26e3315473e")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 33.02 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f318cc8d-13c8-4c14-8332-82b928659328")
+		(property "Reference" "#PWR039"
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Footprint" ""
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 33.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "99fcff6c-0ca9-4048-8e8b-b8b60670b065")
+			(uuid "e4aafc29-840d-4ba2-ba34-5b466e7e6532")
 		)
 		(instances
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -17000,6 +18220,71 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 39.37 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd4bceb9-a4cf-441d-bddf-71f237d93e10")
+		(property "Reference" "#PWR0103"
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "398c60ce-9e91-4fe9-ae4c-2892892c5837")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
