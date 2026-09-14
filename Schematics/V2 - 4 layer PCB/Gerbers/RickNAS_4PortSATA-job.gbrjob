@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4"
+      "Version": "9.0.7"
     },
-    "CreationDate": "2026-02-06T12:59:01-06:00"
+    "CreationDate": "2026-05-06T10:24:24-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 136.05,
-      "Y": 93.05
+      "X": 136.1176,
+      "Y": 56.4574
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -26,8 +26,8 @@
       "Layers": "Outer",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2126,
+      "TrackToTrack": -0.0,
+      "MinLineWidth": 0.2182,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     },
@@ -35,7 +35,7 @@
       "Layers": "Inner",
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
+      "TrackToTrack": -0.0,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }
@@ -48,12 +48,12 @@
     },
     {
       "Path": "RickNAS_4PortSATA-In1_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
+      "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "RickNAS_4PortSATA-In2_Cu.gbr",
-      "FileFunction": "Copper,L7,Inr",
+      "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {

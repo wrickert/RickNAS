@@ -8128,7 +8128,7 @@
 	)
 	(global_label "SDataOut"
 		(shape input)
-		(at 181.61 125.73 180)
+		(at 181.61 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8138,7 +8138,7 @@
 		)
 		(uuid "588c0556-dcbc-4c72-9b6f-7dea638d60b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.9164 125.73 0)
+			(at 169.9164 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8304,7 @@
 	)
 	(global_label "SDataIn"
 		(shape input)
-		(at 181.61 128.27 180)
+		(at 181.61 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8314,7 +8314,7 @@
 		)
 		(uuid "9ad0b381-b13e-4b4d-8cda-e73c4646499c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.3678 128.27 0)
+			(at 171.3678 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +10046,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 121.92 163.83 0)
+		(at 121.92 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10055,7 +10055,7 @@
 		(dnp no)
 		(uuid "32565efb-89bf-4a81-abaa-0f1af85dcd83")
 		(property "Reference" "D1"
-			(at 124.968 163.83 0)
+			(at 124.968 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10063,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 114.046 163.576 0)
+			(at 114.046 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +10071,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 121.92 163.83 90)
+			(at 121.92 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +10080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 163.83 90)
+			(at 121.92 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10089,7 +10089,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 121.92 163.83 0)
+			(at 121.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10688,7 +10688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UE_Connector:CONN_10076579-002C-TRLF_AMP"
+		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
 			(at 122.936 73.66 0)
 			(effects
 				(font
@@ -12865,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UE_Connector:CONN_10076579-002C-TRLF_AMP"
+		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
 			(at 202.946 33.02 0)
 			(effects
 				(font
@@ -13149,7 +13149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UE_Connector:CONN_10076579-002C-TRLF_AMP"
+		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
 			(at 202.946 73.66 0)
 			(effects
 				(font
@@ -15557,7 +15557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UE_Connector:CONN_10076579-002C-TRLF_AMP"
+		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
 			(at 122.936 33.02 0)
 			(effects
 				(font
@@ -15684,7 +15684,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 121.92 156.21 0)
+		(at 121.92 158.75 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15693,7 +15693,7 @@
 		(dnp no)
 		(uuid "b9c103c7-1910-4990-ab35-a074f59807a5")
 		(property "Reference" "D2"
-			(at 124.968 156.21 0)
+			(at 124.968 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15701,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 114.046 155.956 0)
+			(at 114.046 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15709,7 +15709,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 121.92 156.21 90)
+			(at 121.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +15718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 156.21 90)
+			(at 121.92 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,7 +15727,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 121.92 156.21 0)
+			(at 121.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,7 +15953,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 121.92 161.29 180)
+		(at 121.92 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15961,7 +15961,7 @@
 		(dnp no)
 		(uuid "c293c54e-b5fa-4bef-af89-f75f2fd05a0c")
 		(property "Reference" "D4"
-			(at 124.968 161.29 0)
+			(at 124.968 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15969,7 +15969,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 113.792 161.29 0)
+			(at 113.792 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15977,7 +15977,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 121.92 161.29 90)
+			(at 121.92 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15986,7 +15986,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 161.29 90)
+			(at 121.92 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15995,7 +15995,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 121.92 161.29 0)
+			(at 121.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,7 +17627,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 121.92 158.75 0)
+		(at 121.92 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17636,7 +17636,7 @@
 		(dnp no)
 		(uuid "eaba5e98-5af1-487c-b357-591e3831998a")
 		(property "Reference" "D3"
-			(at 124.968 158.75 0)
+			(at 124.968 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17644,7 +17644,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 114.046 158.75 0)
+			(at 114.046 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17652,7 +17652,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 121.92 158.75 90)
+			(at 121.92 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,7 +17661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 158.75 90)
+			(at 121.92 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17670,7 +17670,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 121.92 158.75 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
