@@ -11604,7 +11604,7 @@
 	)
 	(symbol
 		(lib_id "UE-Connector:10076579-002C-TRLF")
-		(at 127 74.93 90)
+		(at 207.01 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11615,7 +11615,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b2c4031-c5b6-42a1-8728-c650b96d4e3f")
 		(property "Reference" "J9"
-			(at 162.56 57.15 90)
+			(at 242.57 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11625,7 +11625,7 @@
 			)
 		)
 		(property "Value" "10076579-002C-TRLF"
-			(at 162.56 59.69 90)
+			(at 242.57 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11635,7 +11635,7 @@
 			)
 		)
 		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
-			(at 122.936 73.66 0)
+			(at 202.946 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11647,7 +11647,7 @@
 			)
 		)
 		(property "Datasheet" "10076579-002C-TRLF"
-			(at 122.936 74.422 0)
+			(at 202.946 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11659,7 +11659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 74.93 0)
+			(at 207.01 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +14451,7 @@
 	)
 	(symbol
 		(lib_id "UE-Connector:10076579-002C-TRLF")
-		(at 207.01 74.93 90)
+		(at 127 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14462,7 +14462,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a6e46f9-8273-4bb2-89d1-9e1d85de9510")
 		(property "Reference" "J10"
-			(at 242.57 57.15 90)
+			(at 162.56 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14472,7 +14472,7 @@
 			)
 		)
 		(property "Value" "10076579-002C-TRLF"
-			(at 242.57 59.69 90)
+			(at 162.56 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14482,7 +14482,7 @@
 			)
 		)
 		(property "Footprint" "UE_Connector:91908-291512_SAS_Conn"
-			(at 202.946 73.66 0)
+			(at 122.936 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "Datasheet" "10076579-002C-TRLF"
-			(at 202.946 74.422 0)
+			(at 122.936 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14506,7 +14506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 74.93 0)
+			(at 127 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17522,7 +17522,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 165.1 82.55 90)
+		(at 245.11 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17532,7 +17532,7 @@
 		(dnp no)
 		(uuid "bb3bf08c-ffec-4243-910f-0ec648475efe")
 		(property "Reference" "JP3"
-			(at 162.56 81.28 0)
+			(at 242.57 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17543,7 +17543,7 @@
 			)
 		)
 		(property "Value" "open"
-			(at 166.878 80.772 0)
+			(at 246.888 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17554,7 +17554,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 165.1 82.55 0)
+			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17565,7 +17565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 82.55 0)
+			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17576,7 +17576,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 165.1 82.55 0)
+			(at 245.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18541,7 +18541,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 245.11 82.55 90)
+		(at 165.1 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18551,7 +18551,7 @@
 		(dnp no)
 		(uuid "dad4f47e-0567-461c-93c0-67b489f88ad2")
 		(property "Reference" "JP4"
-			(at 242.57 81.28 0)
+			(at 162.56 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18562,7 +18562,7 @@
 			)
 		)
 		(property "Value" "open"
-			(at 246.888 80.772 0)
+			(at 166.878 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18573,7 +18573,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 245.11 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18584,7 +18584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18595,7 +18595,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 245.11 82.55 0)
+			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
