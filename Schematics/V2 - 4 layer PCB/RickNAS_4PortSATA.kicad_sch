@@ -478,6 +478,133 @@
 			)
 			(embedded_fonts no)
 		)
+				(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers
 				(hide yes)
@@ -7770,7 +7897,7 @@
 		)
 		(uuid "17e1cb45-c93f-49f5-9e6d-2773daf17e7f")
 	)
-	(label "TX1+"
+	(label "RX1+"
 		(at 209.55 38.1 90)
 		(effects
 			(font
@@ -7780,7 +7907,7 @@
 		)
 		(uuid "180e02cc-081f-479d-bf34-d6ae9bcdfd9a")
 	)
-	(label "RX3-"
+	(label "TX3-"
 		(at 217.17 78.74 90)
 		(effects
 			(font
@@ -7790,7 +7917,7 @@
 		)
 		(uuid "1cda5c84-cfdf-43a8-9d32-c044f8129631")
 	)
-	(label "TX0-"
+	(label "RX0-"
 		(at 132.08 38.1 90)
 		(effects
 			(font
@@ -7800,7 +7927,7 @@
 		)
 		(uuid "218c659b-06c8-45ad-8da1-b5bf278e26d6")
 	)
-	(label "RX3+"
+	(label "TX3+"
 		(at 219.71 78.74 90)
 		(effects
 			(font
@@ -7810,7 +7937,7 @@
 		)
 		(uuid "297cbeaa-5ca9-46ca-8c53-df865f571ff5")
 	)
-	(label "TX2+"
+	(label "RX2+"
 		(at 129.54 78.74 90)
 		(effects
 			(font
@@ -7820,7 +7947,7 @@
 		)
 		(uuid "2a7347e2-febb-488f-9c6b-2934bde232c3")
 	)
-	(label "TX3-"
+	(label "RX3-"
 		(at 212.09 78.74 90)
 		(effects
 			(font
@@ -7870,7 +7997,7 @@
 		)
 		(uuid "630f1832-8237-41ea-bb4a-2ccdcf5e4087")
 	)
-	(label "TX1-"
+	(label "RX1-"
 		(at 212.09 38.1 90)
 		(effects
 			(font
@@ -7910,7 +8037,7 @@
 		)
 		(uuid "7f8e1b0d-2a31-4707-a59a-38d9b7df3790")
 	)
-	(label "RX0+"
+	(label "TX0+"
 		(at 139.7 38.1 90)
 		(effects
 			(font
@@ -7960,7 +8087,7 @@
 		)
 		(uuid "a41f470d-93a3-43b2-bcae-8e1ef4157f29")
 	)
-	(label "RX2+"
+	(label "TX2+"
 		(at 139.7 78.74 90)
 		(effects
 			(font
@@ -7970,7 +8097,7 @@
 		)
 		(uuid "ac4688f4-f132-4d3b-9029-46e03b3d308c")
 	)
-	(label "TX0+"
+	(label "RX0+"
 		(at 129.54 38.1 90)
 		(effects
 			(font
@@ -7980,7 +8107,7 @@
 		)
 		(uuid "ae79d4e3-8589-4cd0-b988-ecc23b0f3b22")
 	)
-	(label "RX2-"
+	(label "TX2-"
 		(at 137.16 78.74 90)
 		(effects
 			(font
@@ -8000,7 +8127,7 @@
 		)
 		(uuid "c9b5e312-6821-4c7e-b4eb-d6e3941f9e95")
 	)
-	(label "RX0-"
+	(label "TX0-"
 		(at 137.16 38.1 90)
 		(effects
 			(font
@@ -8010,7 +8137,7 @@
 		)
 		(uuid "df856313-63da-4b7c-8825-70eabbb2b53c")
 	)
-	(label "RX1-"
+	(label "TX1-"
 		(at 217.17 38.1 90)
 		(effects
 			(font
@@ -8020,7 +8147,7 @@
 		)
 		(uuid "dfbb3bd6-e6bc-4de9-8201-9fe2b4e5d05c")
 	)
-	(label "RX1+"
+	(label "TX1+"
 		(at 219.71 38.1 90)
 		(effects
 			(font
@@ -8030,7 +8157,7 @@
 		)
 		(uuid "e2b2824a-8bc3-4b46-b399-4ade0a32e210")
 	)
-	(label "TX2-"
+	(label "RX2-"
 		(at 132.08 78.74 90)
 		(effects
 			(font
@@ -8040,7 +8167,7 @@
 		)
 		(uuid "e313b11c-31c1-4711-b31f-e6496ce37120")
 	)
-	(label "TX3+"
+	(label "RX3+"
 		(at 209.55 78.74 90)
 		(effects
 			(font
@@ -8106,7 +8233,7 @@
 	)
 	(global_label "SDataOut"
 		(shape input)
-		(at 97.79 64.77 0)
+		(at 97.79 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8116,7 +8243,7 @@
 		)
 		(uuid "321b0684-57b8-4443-bc4f-aec9b37f9b6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.4836 64.77 0)
+			(at 109.4836 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8150,7 +8277,7 @@
 	)
 	(global_label "SClock"
 		(shape input)
-		(at 72.39 67.31 180)
+		(at 72.39 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8160,7 +8287,7 @@
 		)
 		(uuid "5a0cacda-defd-4d3c-850a-d25acbd3c40c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.9944 67.31 0)
+			(at 62.9944 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8321,7 @@
 	)
 	(global_label "SLoad"
 		(shape input)
-		(at 72.39 90.17 180)
+		(at 72.39 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8204,7 +8331,7 @@
 		)
 		(uuid "5d6a451c-3bd5-4420-9019-64c5054a5f9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.7202 90.17 0)
+			(at 63.7202 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8343,7 @@
 	)
 	(global_label "SDataIn"
 		(shape input)
-		(at 97.79 87.63 0)
+		(at 97.79 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8226,7 +8353,7 @@
 		)
 		(uuid "66869d66-fd41-4dfb-9c35-44fd612910d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.0322 87.63 0)
+			(at 108.0322 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18421,6 +18548,293 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 62.23 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "260a6b4a-48f8-456b-b686-e6cb21c4dd06")
+		(property "Reference" "R1"
+			(at 62.23 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc3348fd-e13e-4a59-980c-52434f2bcda6")
+		)
+		(pin "2"
+			(uuid "43af87ab-56a4-4173-8b7b-c28fa252b2cb")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 64.77 67.31) (xy 72.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dca39f4-4e03-4032-87a9-4bd0855150ea")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 59.69 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d405bdca-2ab2-4484-b372-8844abbd7f8c")
+		(property "Reference" "#PWR0109"
+			(at 55.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 56.515 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95064d85-3a39-43a1-bbf3-a0804eef846b")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 72.39 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29279144-130c-4d3d-a8f8-b7ddb9d32691")
+		(property "Reference" "#PWR0110"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 69.215 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 72.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b3c93c-4384-4954-bf8c-02c92f64dfb4")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 97.79 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2b6632b-0933-4b87-bf5b-5b37675d190a")
+		(property "Reference" "#PWR0111"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 100.965 64.77 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "384103c2-4ef4-4db6-affe-34aedc37392a")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 97.79 87.63)
+		(uuid "9657bb84-045c-4135-91ca-83202108300c")
+	)
+	(text "J1 = SFF-8643 BACKPLANE fixed-end pinout (SFF-9402 Rev 1.1 Table 8-2).\nTE symbol pin names are the CONTROLLER names; net names follow SFF-9402 (TX = into cable).\nDrive S2/S3 (RXn) <- J1 B4/B5,A4/A5,B7/B8,A7/A8;  drive S6/S5 (TXn) -> J1 D4/D5,C4/C5,D7/D8,C7/C8.\nSB0 SClock=A1, SB1 SLoad=B1, SB4 SDataOut=C2, SB5 SDataIn=D2,\nSB7 BP_TYPE=A2 (R1 pull-down = SGPIO), SB3 GND=B2, SB2 GND=C1, SB6 CNTRLR_TYPE=D1 (NC).\nSwapped from the controller pinout 2026-09-15 (V1 failed with it)."
+		(exclude_from_sim no)
+		(at 63.5 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff71962c-f93e-4c95-a8d1-e3ef84886f8a")
 	)
 	(sheet_instances
 		(path "/"
