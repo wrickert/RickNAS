@@ -5318,10 +5318,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "molex_microfit_2x2:430450423"
-			(body_styles demorgan)
+(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5329,50 +5329,26 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 8.89 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "430450423"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_SD-43045-008_04_MOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Datasheet" "430450423"
-				(at 0 0 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5383,17 +5359,7 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "430450423"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5404,7 +5370,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "CONN_SD-43045-008_04_MOL"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5415,203 +5381,88 @@
 					)
 				)
 			)
-			(symbol "430450423_1_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.127)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5626,10 +5477,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5644,10 +5495,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5662,276 +5513,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "430450423_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -10.16) (xy 12.7 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -6.7733)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 8.89 -8.4667)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -10.16) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6525,7 +6110,7 @@
 		)
 		(uuid "fae32eba-523b-46e8-af67-5aa8ee248d88")
 	)
-	(text "J1 = SFF-8643 BACKPLANE fixed-end pinout (SFF-9402 Rev 1.1 Table 8-2).\nTE symbol pin names are the CONTROLLER names; net names follow SFF-9402 (TX = into cable).\nDrive S2/S3 (RXn) <- J1 B4/B5,A4/A5,B7/B8,A7/A8;  drive S6/S5 (TXn) -> J1 D4/D5,C4/C5,D7/D8,C7/C8.\nSB0 SClock=A1, SB1 SLoad=B1, SB4 SDataOut=C2, SB5 SDataIn=D2,\nSB7 BP_TYPE=A2 (R1 pull-down = SGPIO), SB3 GND=B2, SB2 GND=C1, SB6 CNTRLR_TYPE=D1 (NC).\nSwapped from the controller pinout 2026-09-15 (V1 failed with it)."
+	(text "J1 = SFF-8643 BACKPLANE fixed-end pinout (SFF-9402 Rev 1.1 Table 8-2).\nTE symbol pin names are the CONTROLLER names; net names follow SFF-9402 (TX = into cable).\nDrive S2/S3 (RXn) <- J1 B4/B5,A4/A5,B7/B8,A7/A8;  drive S6/S5 (TXn) -> J1 D4/D5,C4/C5,D7/D8,C7/C8.\nSB0 SClock=A1, SB1 SLoad=B1, SB4 SDataOut=C2, SB5 SDataIn=D2,\nSB7 BP_TYPE=A2 (R1 pull-down = SGPIO), SB3 GND=B2, SB2 GND=C1, SB6 CNTRLR_TYPE=D1 (NC).\nSwapped from the controller pinout 2026-09-15."
 		(exclude_from_sim no)
 		(at 63.5 143.51 0)
 		(effects
@@ -6802,16 +6387,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 77.47) (xy 247.65 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12354a75-70da-490f-b24f-135eda4d6f6c")
-	)
-	(wire
-		(pts
 			(xy 209.55 74.93) (xy 209.55 78.74)
 		)
 		(stroke
@@ -7012,16 +6587,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 77.47) (xy 247.65 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36ac1f1c-5f36-4480-a067-0356d08244f8")
-	)
-	(wire
-		(pts
 			(xy 111.76 156.21) (xy 119.38 156.21)
 		)
 		(stroke
@@ -7079,16 +6644,6 @@
 			(type default)
 		)
 		(uuid "43bcf2b1-4a00-4352-942c-9e7304a5ddcd")
-	)
-	(wire
-		(pts
-			(xy 167.64 36.83) (xy 167.64 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d6462c-a332-410f-8e97-f64b3832af1e")
 	)
 	(wire
 		(pts
@@ -7209,16 +6764,6 @@
 			(type default)
 		)
 		(uuid "5e227d21-b1d3-430d-8ee8-b45afe39cbf2")
-	)
-	(wire
-		(pts
-			(xy 247.65 36.83) (xy 247.65 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6362b3cc-4ab2-4e93-aeaf-91bbefefa18c")
 	)
 	(wire
 		(pts
@@ -7362,16 +6907,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f942e2-bb5c-4760-8afb-1471fc7dd021")
-	)
-	(wire
-		(pts
 			(xy 124.46 161.29) (xy 127 161.29)
 		)
 		(stroke
@@ -7462,16 +6997,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 36.83) (xy 247.65 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9238204a-1248-4456-8004-8cce59913d26")
-	)
-	(wire
-		(pts
 			(xy 27.94 59.69) (xy 29.21 59.69)
 		)
 		(stroke
@@ -7489,16 +7014,6 @@
 			(type default)
 		)
 		(uuid "96effcf0-7ac6-4341-b388-b433dccd6220")
-	)
-	(wire
-		(pts
-			(xy 165.1 36.83) (xy 167.64 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96f34c4c-178e-4712-a890-d38f820f4fe9")
 	)
 	(wire
 		(pts
@@ -8179,16 +7694,6 @@
 			(type default)
 		)
 		(uuid "f9ce6b28-7c4d-4da9-a14e-0057070a7d83")
-	)
-	(wire
-		(pts
-			(xy 165.1 77.47) (xy 167.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf7641c-421a-490c-a4f4-e67c246275c0")
 	)
 	(label "TX1-"
 		(at 97.79 74.93 0)
@@ -10450,7 +9955,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 57.15 38.1 90)
+		(at 57.15 30.48 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10461,7 +9966,7 @@
 		(fields_autoplaced yes)
 		(uuid "288ad189-128b-437d-8cbf-4f20dbc2c297")
 		(property "Reference" "#PWR03"
-			(at 60.96 38.1 0)
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10472,7 +9977,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 53.34 38.1 90)
+			(at 53.34 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10483,7 +9988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 38.1 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10494,7 +9999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 38.1 0)
+			(at 57.15 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10505,7 +10010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 38.1 0)
+			(at 57.15 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14013,7 +13518,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 57.15 35.56 90)
+		(at 57.15 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14024,7 +13529,7 @@
 		(fields_autoplaced yes)
 		(uuid "748010b7-88e3-4af4-8320-7455fbf62191")
 		(property "Reference" "#PWR02"
-			(at 60.96 35.56 0)
+			(at 60.96 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14035,7 +13540,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 53.34 35.56 90)
+			(at 53.34 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14046,7 +13551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 35.56 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14057,7 +13562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 35.56 0)
+			(at 57.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,7 +13573,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 35.56 0)
+			(at 57.15 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14958,89 +14463,6 @@
 			(project "RickNAS_4PortSATA"
 				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 176.53 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7e596012-a9fc-4753-b5f5-988c44449974")
-		(property "Reference" "J2"
-			(at 176.53 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 173.482 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 176.53 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 176.53 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "79250102-a380-4eff-8df2-aca2fff1bf13")
-		)
-		(pin "3"
-			(uuid "fdd7bf33-2f25-4031-b209-3fa6f4728ded")
-		)
-		(pin "1"
-			(uuid "1bd42f68-ea6e-435e-8a1d-8465f0520a73")
-		)
-		(instances
-			(project "RickNAS_4PortSATA"
-				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17737,7 +17159,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "2k"
 			(at 132.08 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17747,7 +17169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
 			(at 132.08 173.355 90)
 			(hide yes)
 			(show_name no)
@@ -19225,8 +18647,8 @@
 		)
 	)
 	(symbol
-		(lib_id "molex_microfit_2x2:430450423")
-		(at 57.15 30.48 0)
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 62.23 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19237,7 +18659,7 @@
 		(fields_autoplaced yes)
 		(uuid "e01ec09b-fe30-4246-8144-dc182195046f")
 		(property "Reference" "J6"
-			(at 71.12 33.02 0)
+			(at 64.77 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19247,8 +18669,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "POWER"
-			(at 71.12 35.56 0)
+		(property "Value" "Molex 4-pin"
+			(at 64.77 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19258,8 +18680,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UE_Connector:CONN_SD-43045-008_04_MOL"
-			(at 57.15 30.48 0)
+		(property "Footprint" "Connector_TE-Connectivity:TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical"
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19270,8 +18692,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "430450423"
-			(at 57.15 30.48 0)
+		(property "Datasheet" ""
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19282,8 +18704,31 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 30.48 0)
+		(property "Description" "PC peripheral 4-pin (Molex 8981 / MATE-N-LOK) power header: 1=+12V 2=GND 3=GND 4=+5V"
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HC-C5080-4AS"
+			(at 62.23 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5221226"
+			(at 62.23 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20186,7 +19631,7 @@
 	)
 	(symbol
 		(lib_id "power:VSS")
-		(at 57.15 30.48 90)
+		(at 57.15 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20197,7 +19642,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1b6f336-858d-4e3c-b764-8f9096895f03")
 		(property "Reference" "#PWR0101"
-			(at 60.96 30.48 0)
+			(at 60.96 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20208,7 +19653,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 53.34 30.4799 90)
+			(at 53.34 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20219,7 +19664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 30.48 0)
+			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20230,7 +19675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 30.48 0)
+			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20241,7 +19686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 57.15 30.48 0)
+			(at 57.15 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20887,6 +20332,710 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 187.96 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f1fcb6a-76f5-4951-85f3-c59607ba3e46")
+		(property "Reference" "JP5"
+			(at 185.42 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "P11 GND"
+			(at 189.738 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 187.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 187.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0216e8c2-d0fe-41d1-839e-372b851a42e8")
+		)
+		(pin "2"
+			(uuid "54965f84-37b1-4bd4-8d5d-d6d1141aaba6")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+		(wire
+		(pts
+			(xy 187.96 34.29) (xy 187.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc93422c-9c97-4505-b599-e531f01b841b")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 187.96 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed7913a-9ec1-4706-b77d-a69a6730dba9")
+		(property "Reference" "#PWR0112"
+			(at 187.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 187.96 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bb2e5e8-375d-4cfc-988c-2d782cc640e8")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 267.97 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e35e2ca-1771-49c1-98b1-9ceeb1e853e5")
+		(property "Reference" "JP6"
+			(at 265.43 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "P11 GND"
+			(at 269.748 42.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 267.97 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 267.97 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1b7cdfb-f1e3-4330-91b7-b3aa7e6b1a9b")
+		)
+		(pin "2"
+			(uuid "6a945df3-a094-4233-afd5-057b451e577b")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+		(wire
+		(pts
+			(xy 267.97 34.29) (xy 267.97 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658ee2f8-ec20-488b-983c-89d27fe50681")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 267.97 46.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b6e0fd5-83ce-407e-bedb-9cb592b8b08f")
+		(property "Reference" "#PWR0113"
+			(at 267.97 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 267.97 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 267.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8d9d5a3-a4d3-4ceb-95f4-c95cad85def3")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 267.97 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be9acffe-f42f-4e3e-9465-c666b7243d7a")
+		(property "Reference" "JP7"
+			(at 265.43 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "P11 GND"
+			(at 269.748 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 267.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 267.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5b2cd1d-81d8-42d2-bdf5-0d22d5696921")
+		)
+		(pin "2"
+			(uuid "ba925f89-a3bf-4dfc-8d49-51aab83135ed")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+		(wire
+		(pts
+			(xy 267.97 74.93) (xy 267.97 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b62f55d-c04d-4bb1-847e-595e53dc202c")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 267.97 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f78c4fa-1781-4b19-b913-df267d526d63")
+		(property "Reference" "#PWR0114"
+			(at 267.97 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 267.97 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 267.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22b9c968-655e-4700-8652-0dce682d5b13")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 187.96 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b893c099-f627-4118-b4fa-fe338dc7716d")
+		(property "Reference" "JP8"
+			(at 185.42 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "P11 GND"
+			(at 189.738 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 187.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 187.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf230ebe-ce0d-4ef6-a432-731b4d74ebbf")
+		)
+		(pin "2"
+			(uuid "285fee27-0c6b-4e74-9ee4-e72983f465e3")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+		(wire
+		(pts
+			(xy 187.96 74.93) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c22bdfb-fe1a-4132-9934-a764e386140c")
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 187.96 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40009571-26be-4fce-92e6-e1eb1c854296")
+		(property "Reference" "#PWR0115"
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 187.96 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(at 187.96 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb70ec2f-fd78-4c4d-ab29-a90bd62ac7fe")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 167.64 34.29)
+		(uuid "b1321d3e-614c-4e63-baf7-5f180ab7166e")
+	)
+	(no_connect
+		(at 247.65 34.29)
+		(uuid "424e1d9d-891f-4675-9bf1-9019aa82b0c5")
+	)
+	(no_connect
+		(at 247.65 74.93)
+		(uuid "80f69bb3-9bb8-4933-898d-f0b392bfba40")
+	)
+	(no_connect
+		(at 167.64 74.93)
+		(uuid "0332bdb0-76f2-4635-b49a-b11db1903d61")
+	)
+	(no_connect
+		(at 181.61 118.11)
+		(uuid "fe3c5de0-cf1a-4d94-b54e-81949b4c7a0e")
+	)
+	(no_connect
+		(at 181.61 120.65)
+		(uuid "0111b476-0a42-472e-8045-bdb609ad0702")
+	)
+	(no_connect
+		(at 181.61 123.19)
+		(uuid "ae3b2e84-a75a-404b-963f-cd8bc3e210d2")
 	)
 	(sheet_instances
 		(path "/"
