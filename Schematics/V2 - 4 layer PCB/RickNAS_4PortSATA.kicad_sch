@@ -21026,16 +21026,838 @@
 		(uuid "0332bdb0-76f2-4635-b49a-b11db1903d61")
 	)
 	(no_connect
-		(at 181.61 118.11)
-		(uuid "fe3c5de0-cf1a-4d94-b54e-81949b4c7a0e")
-	)
-	(no_connect
 		(at 181.61 120.65)
 		(uuid "0111b476-0a42-472e-8045-bdb609ad0702")
 	)
 	(no_connect
 		(at 181.61 123.19)
 		(uuid "ae3b2e84-a75a-404b-963f-cd8bc3e210d2")
+	)
+	(junction
+		(at 67.31 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a600263-32c3-4721-a8f7-e64198662162")
+	)
+	(junction
+		(at 67.31 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3150f077-b0d8-40b3-94f2-78ed32216aeb")
+	)
+	(junction
+		(at 67.31 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ac3783-e2e5-440f-8a85-ace637d95567")
+	)
+	(wire
+		(pts
+			(xy 67.31 184.15) (xy 74.93 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed16adb5-86f1-47a1-a38a-0e5ae3ca5fc5")
+	)
+	(wire
+		(pts
+			(xy 80.01 184.15) (xy 82.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131671f5-34d8-4499-b305-555fa9157dab")
+	)
+	(wire
+		(pts
+			(xy 67.31 181.61) (xy 74.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fea54e3-9dd9-4e9f-9963-55cdf756d272")
+	)
+	(wire
+		(pts
+			(xy 67.31 176.53) (xy 74.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8cad3f-7916-4d0e-8f0b-4f850eee8f94")
+	)
+	(wire
+		(pts
+			(xy 67.31 179.07) (xy 67.31 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8e3e8f-2eff-4576-8c9f-e4051ba01d8f")
+	)
+	(wire
+		(pts
+			(xy 67.31 181.61) (xy 67.31 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6690179f-0536-4e15-b8a3-a8e22513b6a4")
+	)
+	(wire
+		(pts
+			(xy 67.31 179.07) (xy 74.93 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ee4a0d-40db-41da-b2e8-35b259cc2e91")
+	)
+	(wire
+		(pts
+			(xy 80.01 181.61) (xy 82.55 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed3a0a3-f74f-4907-9830-4864e332223c")
+	)
+	(wire
+		(pts
+			(xy 67.31 184.15) (xy 67.31 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f400d5b7-48ad-4161-a63a-e8ceaf1033a9")
+	)
+	(wire
+		(pts
+			(xy 67.31 176.53) (xy 67.31 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdee121-7483-4ce5-b368-f6381ef840de")
+	)
+	(wire
+		(pts
+			(xy 80.01 179.07) (xy 82.55 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a763ed5-612a-422b-8805-c00d2393f283")
+	)
+	(wire
+		(pts
+			(xy 80.01 176.53) (xy 82.55 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13980f71-f652-485d-b31b-fab5b35abbbe")
+	)
+	(global_label "Fault 2"
+		(shape input)
+		(at 92.71 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5b720a7-431e-4453-bdda-a970dfb5fd5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.59 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fault 4"
+		(shape input)
+		(at 92.71 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39f0d377-4bf8-4c60-b7fc-9c913932c262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.59 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fault 3"
+		(shape input)
+		(at 92.71 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b678320-0d92-41f0-8c9d-3a5a349fed25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.59 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fault 1"
+		(shape input)
+		(at 92.71 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c487a24-1b63-4a00-a29c-60b72cac3f13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.59 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 77.47 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68f2f8c3-316a-4f06-9227-f5d9a4b50a26")
+		(property "Reference" "D5"
+			(at 80.518 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 69.596 176.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 77.47 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a433e1f1-1f2e-4d8e-9202-a8218ff6212e")
+		)
+		(pin "1"
+			(uuid "34300160-f5be-4de6-a8cc-ffc8145a6e48")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04")
+		(at 87.63 179.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c6cdee-3d63-4439-99f8-1c1f66bcc6a7")
+		(property "Reference" "RN3"
+			(at 87.63 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 87.63 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 87.63 172.085 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology"
+			(at 87.63 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bb146ed4-cb28-47ad-a448-0ad855bfe055")
+		)
+		(pin "2"
+			(uuid "fa2a6f2a-4876-4c6f-9a27-fc7a13cf43ea")
+		)
+		(pin "8"
+			(uuid "49449d14-727f-49c3-953a-96ed4fd46e1a")
+		)
+		(pin "4"
+			(uuid "3dcb8de5-dcf4-440b-bad2-97b60d99956c")
+		)
+		(pin "5"
+			(uuid "231aec64-182f-4960-af5f-0f7f34e6df52")
+		)
+		(pin "6"
+			(uuid "db0dd99d-1e47-497d-8d22-5389e54cda3d")
+		)
+		(pin "7"
+			(uuid "cbc91bf7-958a-4db3-90a0-1049a41ecf84")
+		)
+		(pin "1"
+			(uuid "99a8c72d-7d0a-4c0d-b767-537d6743c9ce")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 67.31 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6e4a592-ae3a-465e-a222-93329a24c3eb")
+		(property "Reference" "#PWR0116"
+			(at 67.31 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 67.31 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 67.31 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8eb70671-4228-470c-baa0-3e2b6ad44ad0")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 77.47 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "afc19437-f0e4-4e15-99b2-964b7bc82ac2")
+		(property "Reference" "D6"
+			(at 80.518 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 69.596 178.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 77.47 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e007ac08-999b-4fdb-b193-33c9f37d02b6")
+		)
+		(pin "1"
+			(uuid "98b92875-8121-4a73-8053-69ce921924d7")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 77.47 184.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44f445e9-88e3-49a8-a3e3-51d2737db8bc")
+		(property "Reference" "D8"
+			(at 80.518 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 69.342 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 77.47 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e0de11e-804e-459f-a2b2-e95f7e6a359d")
+		)
+		(pin "1"
+			(uuid "c6c27abc-88fb-4185-a2cb-56facd85574e")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 77.47 181.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffd2aefb-c8e4-40f9-9aea-056d972027af")
+		(property "Reference" "D7"
+			(at 80.518 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red LED"
+			(at 69.596 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 77.47 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 77.47 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b813836e-a3ba-46ed-93da-44826ca86a53")
+		)
+		(pin "1"
+			(uuid "a6314e7b-ad6b-438c-b553-28224915571d")
+		)
+		(instances
+			(project "RickNAS_4PortSATA"
+				(path "/486f1675-5c9c-437e-ba44-728f11b84837"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "Fault 1"
+		(shape input)
+		(at 181.61 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8efa95ce-9b49-4ddd-8390-bfaefece3ad6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.214 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Fault 2"
+		(shape input)
+		(at 181.61 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c25c3edf-73e5-4c94-bf83-c7687f698a9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.214 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Fault 3"
+		(shape input)
+		(at 201.93 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9312ed7-4302-40e4-bf46-82edd60bfdf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Fault 4"
+		(shape input)
+		(at 201.93 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a7ba463-ae24-4293-906a-025504f4de09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.81 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
